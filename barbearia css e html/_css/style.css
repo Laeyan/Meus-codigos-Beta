@@ -44,7 +44,6 @@ nav a {
     font-size: 30px;
     font-weight: bold;
 }
-
 .produto-descricao {
     font-size: 18px;
 }
@@ -72,7 +71,7 @@ nav a:hover{
 }
 footer {
 	text-align: center;
-	background: url("_fotos/bg.jpg");
+	background: grey;
 	padding: 40px 0;
 }
 .copyright {
@@ -83,6 +82,9 @@ footer {
 main form, main table{
     width: 940px;
     margin: 0 auto;
+}
+main table{
+    margin-bottom: 20px; 
 }
 
 form label, form legend {
